@@ -1,0 +1,16 @@
+4.	Pseudocódigo debo bañarme para venir al SENA 
+
+•	Alisto la ropa que me voy a poner 
+•	Me dirijo al baño 
+•	Prendo la luz 
+•	Ingreso al baño 
+•	Abro la llave 
+•	Me enjabono 
+•	Me hecho champo
+•	Me enjuago 
+•	Vuelvo y hago el mismo proceso 
+•	Después de hacer 2 veces el mismo proceso 
+•	Salgo del baño 
+•	Agarro la toalla
+•	Me seco con la toalla
+•	Me visto 

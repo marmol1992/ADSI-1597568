@@ -1,0 +1,13 @@
+3.	Pseudocódigo estoy en el ante jardín viendo pasar niñas y me da ganas de un helado.
+•	I get up 
+•	I look in my pocket if i have Money 
+•	If i have Money in  my pocket 
+•	I´m going to the ice cream shop
+•	I arrived at the ice cream shop
+•	Is closed
+•	I´m looking for another ice cream shop
+•	It’s open 
+•	I´m looking for what King of ice cream i want
+•	
+•	Compro el helado 
+•	Me dirijo de nuevo al ante jardín 

@@ -1,0 +1,9 @@
+1.	 Pseudocódigo de ir al baño siendo las 8: am
+•	Levantarme 
+•	Poner las chanclas
+•	Camina hacia el baño 
+•	Llego al baño
+•	Prendo la luz
+•	Hago la necesidad 
+•	Apago la luz 
+•	Camino de nuevo a la cama 
