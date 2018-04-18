@@ -1,0 +1,65 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Date</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+       html {
+    min-height: 100%;}
+    body{
+    
+    background-position: center,center;   
+    
+    background: linear-gradient( #999999,#000000,#C0C0C0 ); /* Sintaxis estándar (debe ir al final) */
+    color:#FFFFFF
+    
+        }
+   
+       h2 
+       
+       {
+		background:#C6CEF4 ;
+		border: 2px solid #000;
+		border-radius: 12px;
+		color:#000;
+                width: 300px;
+                height:50px;
+       
+       }
+    </style>
+</head>
+
+<body>
+  <h1 id="h1"></h1>
+  <p id="nombre" </p> 
+  <h2 id="h2">La fecha y la hora son:</h2>
+  <div id="fecha"></div>
+  <div id="cont"></div> 
+
+  
+ 
+ <script type="text/javascript">
+  var fecha = new Date();
+  var msj;
+  var nombre = "Trabajo realizado por:Walter Marmolejo Diaz";
+  var info;
+  
+  if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+  else if (fecha.getHours() < 12) { msj = "Buenos dias";}
+  else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+  else                            { msj = "Buenas noches";}
+
+
+
+  document.getElementById("h1"   ).innerHTML = msj;
+  document.getElementById("fecha").innerHTML = fecha;
+  document.getElementById("nombre").innerHTML =nombre;
+  
+ 
+  
+
+    
+  
+ 
+</script>
+</body>
+</html>

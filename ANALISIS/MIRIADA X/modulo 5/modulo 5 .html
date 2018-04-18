@@ -1,0 +1,264 @@
+ <!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<meta charset="utf-8">
+<title>Calculadora</title>
+<style type="text/css">
+    html {
+    min-height: 100%;}
+    body{
+    
+    background-position: center,center;   
+    
+    background: linear-gradient( #999999,#000000,#C0C0C0 ); /* Sintaxis estándar (debe ir al final) */
+    color:#FFFFFF
+    }
+    
+             b,h1 {
+            font-family: 'Indie Flower', cursive;
+           text-align:center;
+            font-size: 30px;
+             }
+             
+        .cont
+       
+       {
+		background:white ;
+		border: 2px solid #000;
+		border-radius: 12px;
+		width:300px;
+		height: 450px;
+               
+	}
+	input[type="text"]{
+		background-color:black;
+		border:0px;
+		width:250px;
+		height: 40px;
+		font-size: 20px;
+		color: white;
+		margin-bottom: 5px;
+        }
+	input[type="button"]{
+		width:60px;border:0px;
+		height: 60px;
+		color: white;
+		background-color:cornflowerblue;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		margin-bottom: 5px;
+                 }
+	body{
+		background-color:#f1f1f1;
+           
+    }
+             
+        
+  
+</style>
+</head>
+<body>
+    <center>
+ 
+ <h1 id="h1"></h1>
+ <h1>Calculadora</h1>
+  <h2 id="h2">La fecha y la hora son:</h2>
+  <div id="fecha"></div>
+  <b>trabajo realizado por<br> Walter Marmolejo Diaz</br></b>
+  <div id="caja">
+  <header class="cabecera">
+    
+  
+ </center>
+</header>
+
+    </style>
+    <center>
+    <script type="text/javascript">
+
+      
+  var fecha = new Date();
+  var msj;
+  var info;
+  
+  if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+  else if (fecha.getHours() < 12) { msj = "Buenos dias";}
+  else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+  else                            { msj = "Buenas noches";}
+
+
+  document.getElementById("h1"   ).innerHTML = msj;
+  document.getElementById("fecha").innerHTML = fecha;  
+ 
+        var num, acc = 0, op = "";
+        var i = 0;
+         var res = 0;
+
+  
+
+function sumar()   { acc = num.value;  op = "+"; }
+  function restar() { acc = num.value;  op = "-"; }
+  function multiplicar()   { acc = num.value;  op = "x"; }
+  function dividir() { acc = num.value;  op = "/"; }
+  function cuadrado() { acc = num.value;  op = "^2"; calcular();}
+  function invers() { acc = num.value;  op = "/x"; calcular();}
+  function sqrt() { acc = num.value;  op = "sqrt"; calcular();}
+  function enter() { acc = num.value;  op = "N"; calcular();}
+  function elevat() { acc = num.value;  op = "x^y"; }
+  function potencia() { acc = num.value;  op = "^n"; calcular();}
+  function factorial() { acc = num.value;  op = "n!"; calcular();}
+  function sumatorio() { acc = num.value;  op = "Σx"; calcular();}
+  function productor() { acc = num.value;  op = "Πx"; calcular();}
+
+  function calcular() {
+    if (op === "+") {num.value = (+acc + +num.value)}
+    if (op === "-") {num.value = (+acc - +num.value)}
+    if (op === "x") {num.value = (+acc * +num.value)}
+    if (op === "/") { 
+      if (num.value!=0) num.value = (+acc / +num.value);
+      else num.value = 'ERROR';
+    }
+    if (op === "^2") {num.value = (+num.value * +num.value)}
+    if (op === "/x") {
+      if (num.value!=0) num.value = (1 / +num.value);
+      else num.value = 'ERROR';
+    }
+    if (op === "sqrt") {
+      if (num.value>=0) num.value = Math.sqrt(+num.value);
+      else num.value = 'ERROR';
+    }
+    if (op === "N") {
+      if (num.value > 0) num.value = Math.floor(+num.value);
+      else num.value = Math.ceil(+num.value);
+    }
+    if (op === "x^y") {
+      if (num.value >= 0 || (num.value < 0 && acc != 0)) num.value = Math.pow(+acc,+num.value)
+      else num.value = 'ERROR';
+    }
+    if (op === "^n") {
+      res = 1;
+      for (i = 0; i < num.value; i++) {
+        res = res*2;
+      }
+      num.value = res;
+    }
+    if (op === "n!") {
+      res = num.value;
+      for (i = 1; i < num.value; i++) {
+        res = res*(+num.value-i);
+      }
+      num.value = res;
+    }
+    if (op === "Σx") {      
+      var llista = num.value.split(",");
+      res = 0;
+      for (i = 0; i < llista.length; i++) {
+        res = +res + (+llista[i]);
+      }  
+      num.value = res;
+    }
+    if (op === "Πx") {
+      var llista = num.value.split(",");
+      res = 1;
+      for (i = 0; i < llista.length; i++) {
+        res = +res * (+llista[i]);        
+      }  
+      num.value = res;
+    }
+  }
+  
+
+  function inici ()  { num = document.getElementById("num"); }
+  function buidar () { num.value = ""; } 
+
+
+        function inic() {
+            num = document.getElementById("num");
+            oMsj = document.getElementById("msj");
+        }
+
+        function vaciar() {
+            num.value = "";
+            clear_msj();
+        }
+
+        function mostrarMensaje(cMsj) {
+            oMsj.innerHTML = cMsj;
+        }
+
+        function clear_msj() {
+            mostrarMensaje("");
+        }
+
+        function cambiarEstadoBloqueoBotones(cTipo, nEstado) {
+            var oRef;
+            if (cTipo === "dec") {
+                oRef = document.getElementById("dec");
+            } else if (cTipo === "bin") {
+
+            }
+        }
+        
+    </script>
+</head>
+
+   <p>
+       <div class ="cont">
+<body onLoad="inic()">
+
+    <br/>
+    <p>
+        
+        <input type="text" id="num" onClick="vaciar()"><br>
+       
+        <span id="msj"></span>
+    </p>
+    <p id="dec">
+      
+        <input type="button" onclick="sumar()" value="+">
+        <input type="button" onclick="restar()" value="-">
+        <input type="button" onclick="multiplicar()" value="*">
+        <input type="button" onclick="dividir()" value="/">
+
+        
+        
+    </p>
+    <p>
+        <input type="button" onclick="sqrt()" value="√x">
+        <input type="button" onclick="invers()" value="1/x">
+        <input type="button" onclick="cuadrado()" value="x^2">
+        <input type="button" onclick="elevat()" value="x^y">
+        
+
+      
+        
+    </p>
+          
+    <p>
+        <input type="button" onclick="potencia()" value="2^n">
+        <input type="button" onclick="factorial()" value="n!">
+        <input type="button" onclick="productor()" value="Π x">
+        <input type="button" onclick="sumatorio()" value="Σ x">
+    
+    </p>
+    
+     <p>
+          
+           <input type="button" onClick="enter()" value="ent(x)">
+           <input type="button" onclick="calcular()" value="=">
+    </p>
+        
+     
+
+         
+ </script>
+    </p>
+   
+    </center>
+    </div>
+
+</div>
+</body>
+</html>

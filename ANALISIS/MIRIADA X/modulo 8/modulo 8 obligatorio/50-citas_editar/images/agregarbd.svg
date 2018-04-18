@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="112.000000pt"
+   height="112.000000pt"
+   viewBox="0 0 112.000000 112.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bd.svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1077"
+     inkscape:window-height="855"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="1.6857143"
+     inkscape:cx="70"
+     inkscape:cy="70"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+Created by potrace 1.13, written by Peter Selinger 2001-2015
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,112.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g6">
+    <path
+       d="M425 1086 c-201 -49 -365 -225 -402 -429 -51 -289 128 -566 409 -632 386 -91 734 241 665 632 -38 209 -210 389 -415 432 -68 14 -193 13 -257 -3z m313 -236 c75 -26 96 -51 89 -110 -6 -56 -37 -83 -126 -110 -131 -41 -325 -18 -393 48 -23 21 -28 34 -28 71 0 25 4 51 8 58 11 18 97 54 151 63 72 14 234 3 299 -20z m92 -265 c0 -44 3 -55 19 -60 31 -9 79 -71 86 -109 9 -47 -24 -119 -67 -146 -27 -17 -44 -20 -88 -16 -70 7 -65 7 -197 0 -96 -5 -122 -3 -180 15 -37 11 -80 32 -96 46 -24 23 -27 33 -27 86 0 33 3 59 8 57 119 -61 125 -62 245 -66 113 -4 117 -3 117 17 0 20 -5 21 -85 21 -132 0 -220 24 -265 72 -15 17 -20 35 -20 81 0 32 3 57 8 55 119 -61 224 -86 311 -73 79 11 157 36 187 60 16 13 32 21 36 18 5 -2 8 -28 8 -58z"
+       id="path8" />
+    <path
+       d="M728 461 c-82 -73 6 -203 105 -156 63 30 77 107 28 156 -40 39 -89 40 -133 0z"
+       id="path10" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;line-height:115.99999665999999365%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+     x="71.18644"
+     y="76.406784"
+     id="text2991"
+     sodipodi:linespacing="116%"><tspan
+       sodipodi:role="line"
+       id="tspan2993"
+       x="71.18644"
+       y="76.406784"
+       style="font-size:11.19999980999999956px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:115.99999665999999365%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans">BD</tspan></text>
+</svg>
